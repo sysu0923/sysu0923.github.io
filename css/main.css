@@ -2518,12 +2518,10 @@ header.header {
   background: var(--content-bg-color);
   border-radius: initial;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
-  opacity: 0.9;
 }
 @media (max-width: 991px) {
   header.header {
     border-radius: initial;
-    opacity: 0.9;
   }
 }
 .main {
@@ -2532,7 +2530,7 @@ header.header {
   justify-content: space-between;
   margin: 0 auto;
   width: calc(100% - 20px);
-  opacity: 0.9;
+  opacity: 0.8;
 }
 @media (max-width: 767px) {
   .main {
@@ -2553,32 +2551,27 @@ header.header {
   .main {
     display: block;
     width: auto;
-    opacity: 0.9;
   }
 }
 .main-inner {
   border-radius: initial;
   box-sizing: border-box;
   width: calc(100% - 252px);
-  opacity: 0.9;
 }
 @media (max-width: 991px) {
   .main-inner {
     border-radius: initial;
     width: 100%;
-    opacity: 0.9;
   }
 }
 .footer-inner {
   padding-left: 252px;
-  opacity: 0.9;
 }
 @media (max-width: 991px) {
   .footer-inner {
     padding-left: 0;
     padding-right: 0;
     width: auto;
-    opacity: 0.9;
   }
 }
 .column {
@@ -2673,31 +2666,25 @@ header.header {
 .sub-menu {
   margin: 0;
   padding: 6px 0;
-  opacity: 0.7;
 }
 .sub-menu .menu-item {
   display: inline-block;
-  opacity: 0.7;
 }
 .sub-menu .menu-item a {
   background: transparent;
   margin: 5px 10px;
   padding: initial;
-  opacity: 0.7;
 }
 .sub-menu .menu-item a:hover {
   background: transparent;
   color: #fc6423;
-  opacity: 0.7;
 }
 .sub-menu .menu-item-active {
   border-bottom-color: #fc6423;
   color: #fc6423;
-  opacity: 0.7;
 }
 .sub-menu .menu-item-active:hover {
   border-bottom-color: #fc6423;
-  opacity: 0.7;
 }
 .sidebar {
   position: -webkit-sticky;
