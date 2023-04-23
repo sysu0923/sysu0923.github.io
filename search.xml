@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>医学统计学-复习</title>
+    <url>/post/1323614/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>R语言介绍&amp;创建数据集</title>
     <url>/post/ba17bdd8/</url>
     <content><![CDATA[<h5 id="入门级命令"><a href="#入门级命令" class="headerlink" title="入门级命令"></a>入门级命令</h5><figure class="highlight r"><table><tr><td class="code"><pre><span class="line">search<span class="punctuation">(</span><span class="punctuation">)</span> <span class="comment">#搜索已加载的包,&quot;package:&quot;后面都是已加载的包</span></span><br><span class="line">install.packages<span class="punctuation">(</span><span class="string">&quot;&quot;</span><span class="punctuation">)</span> <span class="comment">#手动安装包</span></span><br><span class="line">update.packages<span class="punctuation">(</span><span class="string">&quot;&quot;</span><span class="punctuation">)</span> <span class="comment">#手动升级包</span></span><br><span class="line">library<span class="punctuation">(</span><span class="punctuation">)</span> <span class="comment">#调用备用包和捐赠包</span></span><br><span class="line">require<span class="punctuation">(</span><span class="punctuation">)</span> <span class="comment">#调用备用包和捐赠包</span></span><br><span class="line">help.start<span class="punctuation">(</span><span class="punctuation">)</span> <span class="comment">#查看R的帮助网页</span></span><br><span class="line">help<span class="punctuation">(</span><span class="punctuation">)</span> <span class="comment">#查看函数的帮助文档</span></span><br><span class="line">example<span class="punctuation">(</span><span class="punctuation">)</span> <span class="comment">#给出一个函数示例</span></span><br><span class="line"><span class="operator">?</span>mean <span class="comment">#查看mean的帮助文档</span></span><br><span class="line">help.search<span class="punctuation">(</span><span class="string">&quot;&quot;</span><span class="punctuation">)</span> <span class="comment">#模糊搜索</span></span><br><span class="line"><span class="operator">?</span><span class="operator">?</span>test <span class="comment">#模糊搜索</span></span><br><span class="line"><span class="comment"># Rstudio安装包可能会报错，用R安装，命令加type=binary</span></span><br></pre></td></tr></table></figure>
