@@ -34,7 +34,7 @@ $$ </p>
 X \sim N\left( {\mu ,{\sigma ^2}} \right)
 $$ </p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">正态分布是单峰分布，以X=μ为中心，左右对称，呈钟形曲线</span><br><span class="line">μ是位置参数，决最高峰的位置；σ是离散参数，越大越矮胖，越小越瘦高</span><br><span class="line">正态曲线下总面积为1，μ±σ区间的面积是68.3%，μ±1.96σ区间的面积是95.0%，μ±2.58σ区间的面积是99.0%</span><br></pre></td></tr></table></figure>
-<h5 id="标准正态分布"><a href="#标准正态分布" class="headerlink" title="标准正态分布"></a>标准正态分布</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">可利用Z变化将随机变量标化，将正态分布转换为μ=0，σ^2=1的标准正态分布</span><br></pre></td></tr></table></figure>
+<h5 id="标准正态分布（Z分布）"><a href="#标准正态分布（Z分布）" class="headerlink" title="标准正态分布（Z分布）"></a>标准正态分布（Z分布）</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">可利用Z变化将随机变量标化，将正态分布转换为μ=0，σ^2=1的标准正态分布，即Z~(0，1)</span><br></pre></td></tr></table></figure>
 <p>$$ 
 Z = \left( {{{X - \mu } \over \sigma }} \right)
 $$ </p>
@@ -47,6 +47,39 @@ $$ </p>
 <p>$$ 
 单侧： < \overline X  - {Z_\alpha }S 或 > \overline X  + {Z_\alpha }S
 $$ </p>
+<h4 id="抽样和抽样误差"><a href="#抽样和抽样误差" class="headerlink" title="抽样和抽样误差"></a>抽样和抽样误差</h4><h5 id="中心极限定理"><a href="#中心极限定理" class="headerlink" title="中心极限定理"></a>中心极限定理</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">从正态分布总体N(μ,σ^2)中随机抽取例数为n的样本，样本均数仍服从正态分布</span><br><span class="line">从非正态分布总体中随机抽样，当样本量足够大(n&gt;50)，样本均数也近似正态分布</span><br><span class="line">样本均数服从的正态分布均数还是μ，标准差转为标准误</span><br></pre></td></tr></table></figure>
+<h5 id="标准误"><a href="#标准误" class="headerlink" title="标准误"></a>标准误</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">样本统计量的标准差称为标准误，反映抽样误差的大小</span><br></pre></td></tr></table></figure>
+<p>$$ 
+{\sigma _{\overline X }} = {\sigma  \over {\sqrt {\rm{n}} }}
+$$ </p>
+<p>$$ 
+{S_{\overline X }} = {S \over {\sqrt {\rm{n}} }}
+$$ </p>
+<h4 id="Student-t-分布"><a href="#Student-t-分布" class="headerlink" title="Student-t 分布"></a>Student-t 分布</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">适用于正态变量，t变换是Z变换的变体</span><br><span class="line">t分布主要用于总体均数的区间估计和t检验</span><br></pre></td></tr></table></figure>
+<p>$$ 
+{\rm{t}} = {{\overline X  - \mu } \over {{S_{\overline X }}}} = {{\overline X  - \mu } \over {{S \over {\sqrt n }}}},v = n - 1
+$$ </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">t分布是单峰分布，以0为中心，左右对称</span><br><span class="line">自由度v越小，t值越分散，曲线矮胖；自由度v越大，t值越集中，曲线瘦高</span><br><span class="line">v趋于无穷大时，t分布的曲线趋近于标准正态分布曲线</span><br><span class="line">|t|越大，P越小</span><br></pre></td></tr></table></figure>
+<p><img src="/post/1323614/image-20230424160924458.png" alt></p>
+<h5 id="计算总体可信区间"><a href="#计算总体可信区间" class="headerlink" title="计算总体可信区间"></a>计算总体可信区间</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">总体标准差σ未知：按t分布</span><br></pre></td></tr></table></figure>
+<p>$$ 
+双侧（1-α）可信区间：\overline X  - {t_{{\alpha  \over 2},v}}{S \over {\sqrt n }} < \mu  < \overline X  + {t_{{\alpha  \over 2},v}}{S \over {\sqrt n }}
+$$ </p>
+<p>$$ 
+单侧（1-α）可信区间：\mu  < \overline X  + {t_{\alpha ,v}}{S \over {\sqrt n }}或\mu  > \overline X  - {t_{\alpha ,v}}{S \over {\sqrt n }}
+$$ </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">总体标准差σ已知 或 σ未知但样本量n足够大（n&gt;50）：按Z分布</span><br></pre></td></tr></table></figure>
+<p>$$ 
+双侧（1-α）可信区间：\left( {\overline X  \pm {Z_{{\alpha  \over 2},v}}{\sigma  \over {\sqrt n }}} \right)或\left( {\overline X  \pm {Z_{{\alpha  \over 2},v}}{S \over {\sqrt n }}} \right)
+$$ </p>
+<p>$$
+单侧（1-α）可信区间：\mu  > \overline X  - {Z_{{\alpha},v}}{\sigma  \over {\sqrt n }}或\mu  > \overline X  - {Z_{{\alpha},v}}{S \over {\sqrt n }}
+$$</p>
+<p>$$ 
+单侧（1-α）可信区间：\mu  < \overline X  + {Z_{{\alpha},v}}{\sigma  \over {\sqrt n }}或\mu  < \overline X  + {Z_{{\alpha},v}}{S \over {\sqrt n }}
+$$ </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">可信区间的含义是：从已知总体中以固定n重复随机抽样，根据每个样本可算得一个可信区间，则平均有（1-α）的可信区间包含了总体参数，而不是总体参数落在该范围的可能性是（1-α）</span><br><span class="line">只不过实际上α=0.05是小概率，可以认为在一次随机试验中不太可能发生，所以可以认为“该可信区间包含了总体均数μ”是成立的，其发生错误的概率小于等于0.05</span><br></pre></td></tr></table></figure>
+<h4 id="假设检验"><a href="#假设检验" class="headerlink" title="假设检验"></a>假设检验</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Step 1 → 建立检验假设（零假设H0和备择假设H1），确定检验水准</span><br><span class="line">Step 2 → 计算检验统计量 t t&#x27; Z</span><br><span class="line">Step 3 → 确定P值，作出推断结论</span><br><span class="line">注释1：双尾检验还是双尾检验是根据实际问题决定的，例如比较高原和平原人群的血红蛋白含量可用单尾检验；但一般的，习惯选用双尾检验</span><br><span class="line">注释2：|t|越小，P越大，P≥α，接受原假设，两样本可认为没有差异</span><br><span class="line">注释3：|t|越大，P越小，＜α，拒绝原假设，两样本可认为存在差异</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>统计学</category>
