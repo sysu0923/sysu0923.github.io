@@ -543,7 +543,7 @@ if(canvas.getContext){
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-04-24 14:52:10" itemprop="dateModified" datetime="2023-04-24T14:52:10+08:00">2023-04-24</time>
+      <time title="修改时间：2023-04-24 14:53:16" itemprop="dateModified" datetime="2023-04-24T14:53:16+08:00">2023-04-24</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -595,43 +595,14 @@ if(canvas.getContext){
 <p>$$ 
 G = {\ln ^{ - 1}}\left[ {\left( {\ln {X_1} + ... + \ln {X_n}} \right)/n} \right] = {\ln ^{ - 1}}\left[ {\sum\limits_{i = 1}^n {{X_n}} /n} \right]
 $$ </p>
-<h5 id="中位数"><a href="#中位数" class="headerlink" title="中位数"></a>中位数</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">n为奇数：处在(n+1)/2位的观测值</span><br><span class="line">n为偶数：处在n/2和(n+1)/2位的观测值的平均值</span><br></pre></td></tr></table></figure>
-<h5 id="百分位数"><a href="#百分位数" class="headerlink" title="百分位数"></a>百分位数</h5><p>$$ 
-{P_x} = {L_x} + {{{i_x}} \over {{f_x}}}\left( {nX\%  - \sum {{f_L}} } \right)
-$$ </p>
-<h4 id="变异指标"><a href="#变异指标" class="headerlink" title="变异指标"></a>变异指标</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">极差：R=max-min</span><br><span class="line">四分位数间距：Q=P~75~-P~25~</span><br></pre></td></tr></table></figure>
-<h5 id="方差"><a href="#方差" class="headerlink" title="方差"></a>方差</h5><p>$$ 
-{S^2} = {{\sum\limits_{i = 1}^n {{{\left( {{X_i} - \overline X } \right)}^2}} } \over {n - 1}}
-$$ </p>
-<h5 id="标准差"><a href="#标准差" class="headerlink" title="标准差"></a>标准差</h5><p>$$ 
-S = \sqrt {{{\sum\limits_{i = 1}^n {{X_{\rm{i}}}^2 - {{\left( {\sum\limits_{i = 1}^n {{X_i}} } \right)}^2}/n} } \over {n - 1}}}
-$$ </p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">标准差也有“加权标准差”的算法</span><br></pre></td></tr></table></figure>
-<h5 id="变异系数"><a href="#变异系数" class="headerlink" title="变异系数"></a>变异系数</h5><p>$$ 
-CV = {S \over {\overline X }}{\rm{ \times }}100\%
-$$ </p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">用于比较两个或多个度量衡单位不同的指标的变异程度，如身高和体重</span><br><span class="line">用于比较同一度量衡的变异程度，当它们均数相差较大时，如收缩压和舒张压</span><br><span class="line">变异系数没有单位</span><br></pre></td></tr></table></figure>
-<h4 id="正态分布及其应用"><a href="#正态分布及其应用" class="headerlink" title="正态分布及其应用"></a>正态分布及其应用</h4><h5 id="正态分布的概念"><a href="#正态分布的概念" class="headerlink" title="正态分布的概念"></a>正态分布的概念</h5><p>$$ 
-f\left( X \right) = {1 \over {\sigma \sqrt {2\pi } }}{e^{ - {{\left( {X - \mu } \right)}^2}/\left( {2{\sigma ^2}} \right)}}
-$$ </p>
-<p>$$ 
-X \sim N\left( {\mu ,{\sigma ^2}} \right)
-$$ </p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">正态分布是单峰分布，以X=μ为中心，左右对称，呈钟形曲线</span><br><span class="line">μ是位置参数，决最高峰的位置；σ是离散参数，越大越矮胖，越小越瘦高</span><br><span class="line">正态曲线下总面积为1，μ±σ区间的面积是68.3%，μ±1.96σ区间的面积是95.0%，μ±2.58σ区间的面积是99.0%</span><br></pre></td></tr></table></figure>
-<h5 id="标准正态分布"><a href="#标准正态分布" class="headerlink" title="标准正态分布"></a>标准正态分布</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">可利用Z变化将随机变量标化，将正态分布转换为μ=0，σ^2=1的标准正态分布</span><br></pre></td></tr></table></figure>
-<p>$$ 
-Z = \left( {{{X - \mu } \over \sigma }} \right)
-$$ </p>
-<h5 id="正态分布的判定"><a href="#正态分布的判定" class="headerlink" title="正态分布的判定"></a>正态分布的判定</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">图示法</span><br><span class="line">直方图：横轴是观测值，纵轴是实际频数，可叠加正态概率密度曲线</span><br><span class="line">P-P图：频率-频率图，横轴是实际观测值的累计频率，纵轴是正态分布的理论或期望累计概率</span><br><span class="line">Q-Q图：分位数-分位数图，横轴是实际观测值的分位数，纵轴是正态分布的理论或期望分位数</span><br><span class="line">P-P图和Q-Q图中，散点沿45°对角线分布，则基本服从正态分布，反之符合性不好</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">检验法</span><br><span class="line">偏度系数：等于0是对称，大于0是正偏态，小于0是负偏态</span><br><span class="line">总体峰度系数：等于0是正态峰，大于0是尖峭峰，小于0是平阔峰</span><br><span class="line">Kolmogorov-Smirnov：K检验，多用于大样本数据</span><br><span class="line">Shapiro-Wilk：多用于小样本数据</span><br></pre></td></tr></table></figure>
-<h5 id="医学参考值的估计"><a href="#医学参考值的估计" class="headerlink" title="医学参考值的估计"></a>医学参考值的估计</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">正态分布法：适合服从或近似服从正态分布的指标</span><br><span class="line">百分位数法：当资料非正态分布时，可用百分位数法估计参考值范围</span><br></pre></td></tr></table></figure>
-<p>$$ 
-双侧： < \overline X  \pm {Z_{{\alpha  \over 2}}}S
-$$ </p>
-<p>$$ 
-单侧： < \overline X  - {Z_\alpha }S 或 > \overline X  + {Z_\alpha }S
-$$ </p>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/post/1323614/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
