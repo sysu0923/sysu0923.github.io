@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Animal Models of Dysregulated Cardiac Metabolism</title>
+    <url>/post/f1ea1d79/</url>
+    <content><![CDATA[<h4 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h4><p>This review will <strong>summarize metabolic pathways in the heart and describe their contribution to maintaining myocardial contractile function</strong> in health and disease. The review will <strong>summarize lessons learned from animal models with altered systemic metabolism and those in which specific metabolic regulatory pathways have been genetically altered within the heart</strong>.</p>
+<h4 id="New-words"><a href="#New-words" class="headerlink" title="New words"></a>New words</h4><p>compendium；incessantly；</p>
+]]></content>
+      <categories>
+        <category>基础文献</category>
+      </categories>
+  </entry>
+  <entry>
     <title>定量资料的统计描述、参数估计和假设检验基础</title>
     <url>/post/1323614/</url>
     <content><![CDATA[<h4 id="频数分布表与分布图"><a href="#频数分布表与分布图" class="headerlink" title="频数分布表与分布图"></a>频数分布表与分布图</h4><h5 id="频数分布表"><a href="#频数分布表" class="headerlink" title="频数分布表"></a>频数分布表</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">频数：n</span><br><span class="line">极差：R=max-min  # 又称全距</span><br><span class="line">组距：i=全距/组段数  # 一般建议分8-15组，取前开后闭区间[a,b)                      </span><br><span class="line">                    # 上限和下限不必是min和max，包含即可</span><br><span class="line">组中值：组段中间的数值</span><br></pre></td></tr></table></figure>
