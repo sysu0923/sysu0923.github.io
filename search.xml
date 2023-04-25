@@ -1,104 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Animal Models of Dysregulated Cardiac Metabolism</title>
-    <url>/post/f1ea1d79/</url>
-    <content><![CDATA[<h4 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h4><p>This review will <strong>summarize metabolic pathways in the heart</strong> and <strong>describe their contribution to maintaining myocardial contractile function</strong> in health and disease. </p>
-<h4 id="Overview-of-Cardiac-Metabolism"><a href="#Overview-of-Cardiac-Metabolism" class="headerlink" title="Overview of Cardiac Metabolism"></a>Overview of Cardiac Metabolism</h4><p><img src="/post/f1ea1d79/image-20230425230342841.png" alt></p>
-<h4 id="Overview-of-METs-and-Impact-on-Cardiac-Metabolism-Structure-and-Function"><a href="#Overview-of-METs-and-Impact-on-Cardiac-Metabolism-Structure-and-Function" class="headerlink" title="Overview of METs and Impact on Cardiac Metabolism, Structure, and Function"></a>Overview of METs and Impact on Cardiac Metabolism, Structure, and Function</h4><p><img src="/post/f1ea1d79/image-20230425235817522.png" alt></p>
-<p><img src="/post/f1ea1d79/image-20230425235857391.png" alt></p>
-<h4 id="New-words"><a href="#New-words" class="headerlink" title="New words"></a>New words</h4><p>compendium；incessantly；inextricable；deprivation；elucidate；esterified；sedentary；murine；strain；exploit；regimen；extrapolate；</p>
-]]></content>
-      <categories>
-        <category>基础文献</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>定量资料的统计描述、参数估计和假设检验基础</title>
-    <url>/post/1323614/</url>
-    <content><![CDATA[<h4 id="频数分布表与分布图"><a href="#频数分布表与分布图" class="headerlink" title="频数分布表与分布图"></a>频数分布表与分布图</h4><h5 id="频数分布表"><a href="#频数分布表" class="headerlink" title="频数分布表"></a>频数分布表</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">频数：n</span><br><span class="line">极差：R=max-min  # 又称全距</span><br><span class="line">组距：i=全距/组段数  # 一般建议分8-15组，取前开后闭区间[a,b)                      </span><br><span class="line">                    # 上限和下限不必是min和max，包含即可</span><br><span class="line">组中值：组段中间的数值</span><br></pre></td></tr></table></figure>
-<h5 id="直方图"><a href="#直方图" class="headerlink" title="直方图"></a>直方图</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">当纵轴为频率时，正态概率密度函数曲线下面积为1</span><br></pre></td></tr></table></figure>
-<h5 id="分布态势"><a href="#分布态势" class="headerlink" title="分布态势"></a>分布态势</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">对称分布：各组段的频数在左右基本对称</span><br><span class="line">偏态分布：正偏态  # 即右偏态，右边有挖兜</span><br><span class="line">         负偏态  # 即左偏态，左边有挖兜</span><br></pre></td></tr></table></figure>
-<h4 id="平均数"><a href="#平均数" class="headerlink" title="平均数"></a>平均数</h4><h5 id="均数"><a href="#均数" class="headerlink" title="均数"></a>均数</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">算数均数：用于描述满足对称分布（正态/近似正态）分布资料的平均水平 </span><br><span class="line">加权均数：当资料中相同观察值较多或是以频数分布表形式呈现时可用加权均数</span><br><span class="line">         在直方图中可表示为Σ频率*组中值</span><br><span class="line">几何均数：用于对数正态分布的资料，或观测值之间存在倍数关系的资料</span><br><span class="line">         计算几何均数前要将观测值对数化</span><br></pre></td></tr></table></figure>
-<p>$$ 
-G = {\ln ^{ - 1}}\left[ {\left( {\ln {X_1} + ... + \ln {X_n}} \right)/n} \right] = {\ln ^{ - 1}}\left[ {\sum\limits_{i = 1}^n {{X_n}} /n} \right]
-$$ </p>
-<span id="more"></span>
-<h5 id="中位数"><a href="#中位数" class="headerlink" title="中位数"></a>中位数</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">n为奇数：处在(n+1)/2位的观测值</span><br><span class="line">n为偶数：处在n/2和(n+1)/2位的观测值的平均值</span><br></pre></td></tr></table></figure>
-<h5 id="百分位数"><a href="#百分位数" class="headerlink" title="百分位数"></a>百分位数</h5><p>$$ 
-{P_x} = {L_x} + {{{i_x}} \over {{f_x}}}\left( {nX\%  - \sum {{f_L}} } \right)
-$$ </p>
-<h4 id="变异指标"><a href="#变异指标" class="headerlink" title="变异指标"></a>变异指标</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">极差：R=max-min</span><br><span class="line">四分位数间距：Q=P~75~-P~25~</span><br></pre></td></tr></table></figure>
-<h5 id="方差"><a href="#方差" class="headerlink" title="方差"></a>方差</h5><p>$$ 
-{S^2} = {{\sum\limits_{i = 1}^n {{{\left( {{X_i} - \overline X } \right)}^2}} } \over {n - 1}}
-$$ </p>
-<h5 id="标准差"><a href="#标准差" class="headerlink" title="标准差"></a>标准差</h5><p>$$ 
-S = \sqrt {{{\sum\limits_{i = 1}^n {{X_{\rm{i}}}^2 - {{\left( {\sum\limits_{i = 1}^n {{X_i}} } \right)}^2}/n} } \over {n - 1}}}
-$$ </p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">标准差也有“加权标准差”的算法</span><br></pre></td></tr></table></figure>
-<h5 id="变异系数"><a href="#变异系数" class="headerlink" title="变异系数"></a>变异系数</h5><p>$$ 
-CV = {S \over {\overline X }}{\rm{ \times }}100\%
-$$ </p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">用于比较两个或多个度量衡单位不同的指标的变异程度，如身高和体重</span><br><span class="line">用于比较同一度量衡的变异程度，当它们均数相差较大时，如收缩压和舒张压</span><br><span class="line">变异系数没有单位</span><br></pre></td></tr></table></figure>
-<h4 id="正态分布及其应用"><a href="#正态分布及其应用" class="headerlink" title="正态分布及其应用"></a>正态分布及其应用</h4><h5 id="正态分布的概念"><a href="#正态分布的概念" class="headerlink" title="正态分布的概念"></a>正态分布的概念</h5><p>$$ 
-f\left( X \right) = {1 \over {\sigma \sqrt {2\pi } }}{e^{ - {{\left( {X - \mu } \right)}^2}/\left( {2{\sigma ^2}} \right)}}
-$$ </p>
-<p>$$ 
-X \sim N\left( {\mu ,{\sigma ^2}} \right)
-$$ </p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">正态分布是单峰分布，以X=μ为中心，左右对称，呈钟形曲线</span><br><span class="line">μ是位置参数，决最高峰的位置；σ是离散参数，越大越矮胖，越小越瘦高</span><br><span class="line">正态曲线下总面积为1，μ±σ区间的面积是68.3%，μ±1.96σ区间的面积是95.0%，μ±2.58σ区间的面积是99.0%</span><br></pre></td></tr></table></figure>
-<h5 id="标准正态分布（Z分布）"><a href="#标准正态分布（Z分布）" class="headerlink" title="标准正态分布（Z分布）"></a>标准正态分布（Z分布）</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">可利用Z变化将随机变量标化，将正态分布转换为μ=0，σ^2=1的标准正态分布，即Z~(0，1)</span><br></pre></td></tr></table></figure>
-<p>$$ 
-Z = \left( {{{X - \mu } \over \sigma }} \right)
-$$ </p>
-<h5 id="正态分布的判定"><a href="#正态分布的判定" class="headerlink" title="正态分布的判定"></a>正态分布的判定</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">图示法</span><br><span class="line">直方图：横轴是观测值，纵轴是实际频数，可叠加正态概率密度曲线</span><br><span class="line">P-P图：频率-频率图，横轴是实际观测值的累计频率，纵轴是正态分布的理论或期望累计概率</span><br><span class="line">Q-Q图：分位数-分位数图，横轴是实际观测值的分位数，纵轴是正态分布的理论或期望分位数</span><br><span class="line">P-P图和Q-Q图中，散点沿45°对角线分布，则基本服从正态分布，反之符合性不好</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">检验法</span><br><span class="line">偏度系数：等于0是对称，大于0是正偏态，小于0是负偏态</span><br><span class="line">总体峰度系数：等于0是正态峰，大于0是尖峭峰，小于0是平阔峰</span><br><span class="line">Kolmogorov-Smirnov：K检验，多用于大样本数据</span><br><span class="line">Shapiro-Wilk：多用于小样本数据</span><br></pre></td></tr></table></figure>
-<h5 id="医学参考值的估计"><a href="#医学参考值的估计" class="headerlink" title="医学参考值的估计"></a>医学参考值的估计</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">正态分布法：适合服从或近似服从正态分布的指标</span><br><span class="line">百分位数法：当资料非正态分布时，可用百分位数法估计参考值范围</span><br></pre></td></tr></table></figure>
-<p>$$ 
-双侧： < \overline X  \pm {Z_{{\alpha  \over 2}}}S
-$$ </p>
-<p>$$ 
-单侧： < \overline X  - {Z_\alpha }S 或 > \overline X  + {Z_\alpha }S
-$$ </p>
-<h4 id="抽样和抽样误差"><a href="#抽样和抽样误差" class="headerlink" title="抽样和抽样误差"></a>抽样和抽样误差</h4><h5 id="中心极限定理"><a href="#中心极限定理" class="headerlink" title="中心极限定理"></a>中心极限定理</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">从正态分布总体N(μ,σ^2)中随机抽取例数为n的样本，样本均数仍服从正态分布</span><br><span class="line">从非正态分布总体中随机抽样，当样本量足够大(n&gt;50)，样本均数也近似正态分布</span><br><span class="line">样本均数服从的正态分布均数还是μ，标准差转为标准误</span><br></pre></td></tr></table></figure>
-<h5 id="标准误"><a href="#标准误" class="headerlink" title="标准误"></a>标准误</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">样本统计量的标准差称为标准误，反映抽样误差的大小</span><br></pre></td></tr></table></figure>
-<p>$$ 
-{\sigma _{\overline X }} = {\sigma  \over {\sqrt {\rm{n}} }}
-$$ </p>
-<p>$$ 
-{S_{\overline X }} = {S \over {\sqrt {\rm{n}} }}
-$$ </p>
-<h4 id="Student-t-分布"><a href="#Student-t-分布" class="headerlink" title="Student-t 分布"></a>Student-t 分布</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">适用于正态变量，t变换是Z变换的变体</span><br><span class="line">t分布主要用于总体均数的区间估计和t检验</span><br></pre></td></tr></table></figure>
-<p>$$ 
-{\rm{t}} = {{\overline X  - \mu } \over {{S_{\overline X }}}} = {{\overline X  - \mu } \over {{S \over {\sqrt n }}}},v = n - 1
-$$ </p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">t分布是单峰分布，以0为中心，左右对称</span><br><span class="line">自由度v越小，t值越分散，曲线矮胖；自由度v越大，t值越集中，曲线瘦高</span><br><span class="line">v趋于无穷大时，t分布的曲线趋近于标准正态分布曲线</span><br><span class="line">|t|越大，P越小</span><br></pre></td></tr></table></figure>
-<p><img src="/post/1323614/image-20230424160924458.png" alt></p>
-<h5 id="计算总体可信区间"><a href="#计算总体可信区间" class="headerlink" title="计算总体可信区间"></a>计算总体可信区间</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">总体标准差σ未知：按t分布</span><br></pre></td></tr></table></figure>
-<p>$$ 
-双侧（1-α）可信区间：\overline X  - {t_{{\alpha  \over 2},v}}{S \over {\sqrt n }} < \mu  < \overline X  + {t_{{\alpha  \over 2},v}}{S \over {\sqrt n }}
-$$ </p>
-<p>$$ 
-单侧（1-α）可信区间：\mu  < \overline X  + {t_{\alpha ,v}}{S \over {\sqrt n }}或\mu  > \overline X  - {t_{\alpha ,v}}{S \over {\sqrt n }}
-$$ </p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">总体标准差σ已知 或 σ未知但样本量n足够大（n&gt;50）：按Z分布</span><br></pre></td></tr></table></figure>
-<p>$$ 
-双侧（1-α）可信区间：\left( {\overline X  \pm {Z_{{\alpha  \over 2},v}}{\sigma  \over {\sqrt n }}} \right)或\left( {\overline X  \pm {Z_{{\alpha  \over 2},v}}{S \over {\sqrt n }}} \right)
-$$ </p>
-<p>$$
-单侧（1-α）可信区间：\mu  > \overline X  - {Z_{{\alpha},v}}{\sigma  \over {\sqrt n }}或\mu  > \overline X  - {Z_{{\alpha},v}}{S \over {\sqrt n }}
-$$</p>
-<p>$$ 
-单侧（1-α）可信区间：\mu  < \overline X  + {Z_{{\alpha},v}}{\sigma  \over {\sqrt n }}或\mu  < \overline X  + {Z_{{\alpha},v}}{S \over {\sqrt n }}
-$$ </p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">可信区间的含义是：从已知总体中以固定n重复随机抽样，根据每个样本可算得一个可信区间，则平均有（1-α）的可信区间包含了总体参数，而不是总体参数落在该范围的可能性是（1-α）</span><br><span class="line">只不过实际上α=0.05是小概率，可以认为在一次随机试验中不太可能发生，所以可以认为“该可信区间包含了总体均数μ”是成立的，其发生错误的概率小于等于0.05</span><br></pre></td></tr></table></figure>
-<h4 id="假设检验"><a href="#假设检验" class="headerlink" title="假设检验"></a>假设检验</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Step 1 → 建立检验假设（零假设H0和备择假设H1），确定检验水准</span><br><span class="line">Step 2 → 计算检验统计量 t t&#x27; Z</span><br><span class="line">Step 3 → 确定P值，作出推断结论</span><br><span class="line">注释1：双尾检验还是双尾检验是根据实际问题决定的，例如比较高原和平原人群的血红蛋白含量可用单尾检验；但一般的，习惯选用双尾检验</span><br><span class="line">注释2：|t|越小，P越大，P≥α，接受原假设，两样本可认为没有差异</span><br><span class="line">注释3：|t|越大，P越小，＜α，拒绝原假设，两样本可认为存在差异</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>统计学</category>
-      </categories>
-  </entry>
-  <entry>
     <title>R语言介绍&amp;创建数据集</title>
     <url>/post/ba17bdd8/</url>
     <content><![CDATA[<h5 id="入门级命令"><a href="#入门级命令" class="headerlink" title="入门级命令"></a>入门级命令</h5><figure class="highlight r"><table><tr><td class="code"><pre><span class="line">search<span class="punctuation">(</span><span class="punctuation">)</span> <span class="comment">#搜索已加载的包,&quot;package:&quot;后面都是已加载的包</span></span><br><span class="line">install.packages<span class="punctuation">(</span><span class="string">&quot;&quot;</span><span class="punctuation">)</span> <span class="comment">#手动安装包</span></span><br><span class="line">update.packages<span class="punctuation">(</span><span class="string">&quot;&quot;</span><span class="punctuation">)</span> <span class="comment">#手动升级包</span></span><br><span class="line">library<span class="punctuation">(</span><span class="punctuation">)</span> <span class="comment">#调用备用包和捐赠包</span></span><br><span class="line">require<span class="punctuation">(</span><span class="punctuation">)</span> <span class="comment">#调用备用包和捐赠包</span></span><br><span class="line">help.start<span class="punctuation">(</span><span class="punctuation">)</span> <span class="comment">#查看R的帮助网页</span></span><br><span class="line">help<span class="punctuation">(</span><span class="punctuation">)</span> <span class="comment">#查看函数的帮助文档</span></span><br><span class="line">example<span class="punctuation">(</span><span class="punctuation">)</span> <span class="comment">#给出一个函数示例</span></span><br><span class="line"><span class="operator">?</span>mean <span class="comment">#查看mean的帮助文档</span></span><br><span class="line">help.search<span class="punctuation">(</span><span class="string">&quot;&quot;</span><span class="punctuation">)</span> <span class="comment">#模糊搜索</span></span><br><span class="line"><span class="operator">?</span><span class="operator">?</span>test <span class="comment">#模糊搜索</span></span><br><span class="line"><span class="comment"># Rstudio安装包可能会报错，用R安装，命令加type=binary</span></span><br></pre></td></tr></table></figure>
@@ -239,6 +141,91 @@ $$ </p>
       </categories>
   </entry>
   <entry>
+    <title>定量资料的统计描述、参数估计和假设检验基础</title>
+    <url>/post/1323614/</url>
+    <content><![CDATA[<h4 id="频数分布表与分布图"><a href="#频数分布表与分布图" class="headerlink" title="频数分布表与分布图"></a>频数分布表与分布图</h4><h5 id="频数分布表"><a href="#频数分布表" class="headerlink" title="频数分布表"></a>频数分布表</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">频数：n</span><br><span class="line">极差：R=max-min  # 又称全距</span><br><span class="line">组距：i=全距/组段数  # 一般建议分8-15组，取前开后闭区间[a,b)                      </span><br><span class="line">                    # 上限和下限不必是min和max，包含即可</span><br><span class="line">组中值：组段中间的数值</span><br></pre></td></tr></table></figure>
+<h5 id="直方图"><a href="#直方图" class="headerlink" title="直方图"></a>直方图</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">当纵轴为频率时，正态概率密度函数曲线下面积为1</span><br></pre></td></tr></table></figure>
+<h5 id="分布态势"><a href="#分布态势" class="headerlink" title="分布态势"></a>分布态势</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">对称分布：各组段的频数在左右基本对称</span><br><span class="line">偏态分布：正偏态  # 即右偏态，右边有挖兜</span><br><span class="line">         负偏态  # 即左偏态，左边有挖兜</span><br></pre></td></tr></table></figure>
+<h4 id="平均数"><a href="#平均数" class="headerlink" title="平均数"></a>平均数</h4><h5 id="均数"><a href="#均数" class="headerlink" title="均数"></a>均数</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">算数均数：用于描述满足对称分布（正态/近似正态）分布资料的平均水平 </span><br><span class="line">加权均数：当资料中相同观察值较多或是以频数分布表形式呈现时可用加权均数</span><br><span class="line">         在直方图中可表示为Σ频率*组中值</span><br><span class="line">几何均数：用于对数正态分布的资料，或观测值之间存在倍数关系的资料</span><br><span class="line">         计算几何均数前要将观测值对数化</span><br></pre></td></tr></table></figure>
+<p>$$ 
+G = {\ln ^{ - 1}}\left[ {\left( {\ln {X_1} + ... + \ln {X_n}} \right)/n} \right] = {\ln ^{ - 1}}\left[ {\sum\limits_{i = 1}^n {{X_n}} /n} \right]
+$$ </p>
+<span id="more"></span>
+<h5 id="中位数"><a href="#中位数" class="headerlink" title="中位数"></a>中位数</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">n为奇数：处在(n+1)/2位的观测值</span><br><span class="line">n为偶数：处在n/2和(n+1)/2位的观测值的平均值</span><br></pre></td></tr></table></figure>
+<h5 id="百分位数"><a href="#百分位数" class="headerlink" title="百分位数"></a>百分位数</h5><p>$$ 
+{P_x} = {L_x} + {{{i_x}} \over {{f_x}}}\left( {nX\%  - \sum {{f_L}} } \right)
+$$ </p>
+<h4 id="变异指标"><a href="#变异指标" class="headerlink" title="变异指标"></a>变异指标</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">极差：R=max-min</span><br><span class="line">四分位数间距：Q=P~75~-P~25~</span><br></pre></td></tr></table></figure>
+<h5 id="方差"><a href="#方差" class="headerlink" title="方差"></a>方差</h5><p>$$ 
+{S^2} = {{\sum\limits_{i = 1}^n {{{\left( {{X_i} - \overline X } \right)}^2}} } \over {n - 1}}
+$$ </p>
+<h5 id="标准差"><a href="#标准差" class="headerlink" title="标准差"></a>标准差</h5><p>$$ 
+S = \sqrt {{{\sum\limits_{i = 1}^n {{X_{\rm{i}}}^2 - {{\left( {\sum\limits_{i = 1}^n {{X_i}} } \right)}^2}/n} } \over {n - 1}}}
+$$ </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">标准差也有“加权标准差”的算法</span><br></pre></td></tr></table></figure>
+<h5 id="变异系数"><a href="#变异系数" class="headerlink" title="变异系数"></a>变异系数</h5><p>$$ 
+CV = {S \over {\overline X }}{\rm{ \times }}100\%
+$$ </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">用于比较两个或多个度量衡单位不同的指标的变异程度，如身高和体重</span><br><span class="line">用于比较同一度量衡的变异程度，当它们均数相差较大时，如收缩压和舒张压</span><br><span class="line">变异系数没有单位</span><br></pre></td></tr></table></figure>
+<h4 id="正态分布及其应用"><a href="#正态分布及其应用" class="headerlink" title="正态分布及其应用"></a>正态分布及其应用</h4><h5 id="正态分布的概念"><a href="#正态分布的概念" class="headerlink" title="正态分布的概念"></a>正态分布的概念</h5><p>$$ 
+f\left( X \right) = {1 \over {\sigma \sqrt {2\pi } }}{e^{ - {{\left( {X - \mu } \right)}^2}/\left( {2{\sigma ^2}} \right)}}
+$$ </p>
+<p>$$ 
+X \sim N\left( {\mu ,{\sigma ^2}} \right)
+$$ </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">正态分布是单峰分布，以X=μ为中心，左右对称，呈钟形曲线</span><br><span class="line">μ是位置参数，决最高峰的位置；σ是离散参数，越大越矮胖，越小越瘦高</span><br><span class="line">正态曲线下总面积为1，μ±σ区间的面积是68.3%，μ±1.96σ区间的面积是95.0%，μ±2.58σ区间的面积是99.0%</span><br></pre></td></tr></table></figure>
+<h5 id="标准正态分布（Z分布）"><a href="#标准正态分布（Z分布）" class="headerlink" title="标准正态分布（Z分布）"></a>标准正态分布（Z分布）</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">可利用Z变化将随机变量标化，将正态分布转换为μ=0，σ^2=1的标准正态分布，即Z~(0，1)</span><br></pre></td></tr></table></figure>
+<p>$$ 
+Z = \left( {{{X - \mu } \over \sigma }} \right)
+$$ </p>
+<h5 id="正态分布的判定"><a href="#正态分布的判定" class="headerlink" title="正态分布的判定"></a>正态分布的判定</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">图示法</span><br><span class="line">直方图：横轴是观测值，纵轴是实际频数，可叠加正态概率密度曲线</span><br><span class="line">P-P图：频率-频率图，横轴是实际观测值的累计频率，纵轴是正态分布的理论或期望累计概率</span><br><span class="line">Q-Q图：分位数-分位数图，横轴是实际观测值的分位数，纵轴是正态分布的理论或期望分位数</span><br><span class="line">P-P图和Q-Q图中，散点沿45°对角线分布，则基本服从正态分布，反之符合性不好</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">检验法</span><br><span class="line">偏度系数：等于0是对称，大于0是正偏态，小于0是负偏态</span><br><span class="line">总体峰度系数：等于0是正态峰，大于0是尖峭峰，小于0是平阔峰</span><br><span class="line">Kolmogorov-Smirnov：K检验，多用于大样本数据</span><br><span class="line">Shapiro-Wilk：多用于小样本数据</span><br></pre></td></tr></table></figure>
+<h5 id="医学参考值的估计"><a href="#医学参考值的估计" class="headerlink" title="医学参考值的估计"></a>医学参考值的估计</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">正态分布法：适合服从或近似服从正态分布的指标</span><br><span class="line">百分位数法：当资料非正态分布时，可用百分位数法估计参考值范围</span><br></pre></td></tr></table></figure>
+<p>$$ 
+双侧： < \overline X  \pm {Z_{{\alpha  \over 2}}}S
+$$ </p>
+<p>$$ 
+单侧： < \overline X  - {Z_\alpha }S 或 > \overline X  + {Z_\alpha }S
+$$ </p>
+<h4 id="抽样和抽样误差"><a href="#抽样和抽样误差" class="headerlink" title="抽样和抽样误差"></a>抽样和抽样误差</h4><h5 id="中心极限定理"><a href="#中心极限定理" class="headerlink" title="中心极限定理"></a>中心极限定理</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">从正态分布总体N(μ,σ^2)中随机抽取例数为n的样本，样本均数仍服从正态分布</span><br><span class="line">从非正态分布总体中随机抽样，当样本量足够大(n&gt;50)，样本均数也近似正态分布</span><br><span class="line">样本均数服从的正态分布均数还是μ，标准差转为标准误</span><br></pre></td></tr></table></figure>
+<h5 id="标准误"><a href="#标准误" class="headerlink" title="标准误"></a>标准误</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">样本统计量的标准差称为标准误，反映抽样误差的大小</span><br></pre></td></tr></table></figure>
+<p>$$ 
+{\sigma _{\overline X }} = {\sigma  \over {\sqrt {\rm{n}} }}
+$$ </p>
+<p>$$ 
+{S_{\overline X }} = {S \over {\sqrt {\rm{n}} }}
+$$ </p>
+<h4 id="Student-t-分布"><a href="#Student-t-分布" class="headerlink" title="Student-t 分布"></a>Student-t 分布</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">适用于正态变量，t变换是Z变换的变体</span><br><span class="line">t分布主要用于总体均数的区间估计和t检验</span><br></pre></td></tr></table></figure>
+<p>$$ 
+{\rm{t}} = {{\overline X  - \mu } \over {{S_{\overline X }}}} = {{\overline X  - \mu } \over {{S \over {\sqrt n }}}},v = n - 1
+$$ </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">t分布是单峰分布，以0为中心，左右对称</span><br><span class="line">自由度v越小，t值越分散，曲线矮胖；自由度v越大，t值越集中，曲线瘦高</span><br><span class="line">v趋于无穷大时，t分布的曲线趋近于标准正态分布曲线</span><br><span class="line">|t|越大，P越小</span><br></pre></td></tr></table></figure>
+<p><img src="/post/1323614/image-20230424160924458.png" alt></p>
+<h5 id="计算总体可信区间"><a href="#计算总体可信区间" class="headerlink" title="计算总体可信区间"></a>计算总体可信区间</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">总体标准差σ未知：按t分布</span><br></pre></td></tr></table></figure>
+<p>$$ 
+双侧（1-α）可信区间：\overline X  - {t_{{\alpha  \over 2},v}}{S \over {\sqrt n }} < \mu  < \overline X  + {t_{{\alpha  \over 2},v}}{S \over {\sqrt n }}
+$$ </p>
+<p>$$ 
+单侧（1-α）可信区间：\mu  < \overline X  + {t_{\alpha ,v}}{S \over {\sqrt n }}或\mu  > \overline X  - {t_{\alpha ,v}}{S \over {\sqrt n }}
+$$ </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">总体标准差σ已知 或 σ未知但样本量n足够大（n&gt;50）：按Z分布</span><br></pre></td></tr></table></figure>
+<p>$$ 
+双侧（1-α）可信区间：\left( {\overline X  \pm {Z_{{\alpha  \over 2},v}}{\sigma  \over {\sqrt n }}} \right)或\left( {\overline X  \pm {Z_{{\alpha  \over 2},v}}{S \over {\sqrt n }}} \right)
+$$ </p>
+<p>$$
+单侧（1-α）可信区间：\mu  > \overline X  - {Z_{{\alpha},v}}{\sigma  \over {\sqrt n }}或\mu  > \overline X  - {Z_{{\alpha},v}}{S \over {\sqrt n }}
+$$</p>
+<p>$$ 
+单侧（1-α）可信区间：\mu  < \overline X  + {Z_{{\alpha},v}}{\sigma  \over {\sqrt n }}或\mu  < \overline X  + {Z_{{\alpha},v}}{S \over {\sqrt n }}
+$$ </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">可信区间的含义是：从已知总体中以固定n重复随机抽样，根据每个样本可算得一个可信区间，则平均有（1-α）的可信区间包含了总体参数，而不是总体参数落在该范围的可能性是（1-α）</span><br><span class="line">只不过实际上α=0.05是小概率，可以认为在一次随机试验中不太可能发生，所以可以认为“该可信区间包含了总体均数μ”是成立的，其发生错误的概率小于等于0.05</span><br></pre></td></tr></table></figure>
+<h4 id="假设检验"><a href="#假设检验" class="headerlink" title="假设检验"></a>假设检验</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Step 1 → 建立检验假设（零假设H0和备择假设H1），确定检验水准</span><br><span class="line">Step 2 → 计算检验统计量 t t&#x27; Z</span><br><span class="line">Step 3 → 确定P值，作出推断结论</span><br><span class="line">注释1：双尾检验还是双尾检验是根据实际问题决定的，例如比较高原和平原人群的血红蛋白含量可用单尾检验；但一般的，习惯选用双尾检验</span><br><span class="line">注释2：|t|越小，P越大，P≥α，接受原假设，两样本可认为没有差异</span><br><span class="line">注释3：|t|越大，P越小，＜α，拒绝原假设，两样本可认为存在差异</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>统计学</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Review: Regulatory RNAs in Heart Failure</title>
     <url>/post/3a2b7726/</url>
     <content><![CDATA[<h4 id="Abstract-Introduce-the-main-idea-of-the-article"><a href="#Abstract-Introduce-the-main-idea-of-the-article" class="headerlink" title="Abstract: Introduce the main idea of the article"></a>Abstract: Introduce the main idea of the article</h4><p><strong>Regulatory RNA</strong>, which we propose abbreviating as reg RNA, can include both protein-coding and noncoding RNAs. We will address the regulation and functional role of messenger RNAs, microRNAs, long noncoding RNAs, and circular RNAs (reg RNAs) in heart failure.</p>
@@ -334,6 +321,19 @@ $$ </p>
 ]]></content>
       <categories>
         <category>学生工作</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Animal Models of Dysregulated Cardiac Metabolism</title>
+    <url>/post/f1ea1d79/</url>
+    <content><![CDATA[<h4 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h4><p>This review will <strong>summarize metabolic pathways in the heart</strong> and <strong>describe their contribution to maintaining myocardial contractile function</strong> in health and disease. </p>
+<h4 id="Overview-of-Cardiac-Metabolism"><a href="#Overview-of-Cardiac-Metabolism" class="headerlink" title="Overview of Cardiac Metabolism"></a>Overview of Cardiac Metabolism</h4><p><img src="/post/f1ea1d79/image-20230425230342841.png" alt></p>
+<h4 id="Overview-of-METs-and-Impact-on-Cardiac-Metabolism-Structure-and-Function"><a href="#Overview-of-METs-and-Impact-on-Cardiac-Metabolism-Structure-and-Function" class="headerlink" title="Overview of METs and Impact on Cardiac Metabolism, Structure, and Function"></a>Overview of METs and Impact on Cardiac Metabolism, Structure, and Function</h4><p><img src="/post/f1ea1d79/image-20230425235817522.png" alt></p>
+<p><img src="/post/f1ea1d79/image-20230425235857391.png" alt></p>
+<h4 id="New-words"><a href="#New-words" class="headerlink" title="New words"></a>New words</h4><p>compendium；incessantly；inextricable；deprivation；elucidate；esterified；sedentary；murine；strain；exploit；regimen；extrapolate；</p>
+]]></content>
+      <categories>
+        <category>基础文献</category>
       </categories>
   </entry>
 </search>
